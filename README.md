@@ -13,7 +13,6 @@
  * 好友添加自动通过
  
 # 使用前提
-> * ~~目前只支持在windows上运行因为需要弹窗扫码登录微信，后续会支持linux~~   已支持
 > * 有openai账号，并且创建好api_key，注册事项可以参考[此文章](https://juejin.cn/post/7173447848292253704) 。
 > * 微信必须实名认证。
 
@@ -49,18 +48,3 @@ api_key：openai api_key
 auto_pass:是否自动通过好友添加
 session_timeout：会话超时时间，默认60秒，单位秒，在会话时间内所有发送给机器人的信息会作为上下文。
 ````
-
-# 使用示例
-### 向机器人发送`我要问下一个问题`，清空会话信息。
-### 私聊
-<img width="300px" src="https://raw.githubusercontent.com/869413421/study/master/static/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221208153022.jpg"/>
-
-### 群聊@回复
-<img width="300px" src="https://raw.githubusercontent.com/869413421/study/master/static/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221208153015.jpg"/>
-
-### 添加微信（备注: wechabot）进群交流
-
-**如果二维码图片没显示出来，请添加微信号 huangyanming681925**
-
-<img width="210px"  src="https://raw.githubusercontent.com/869413421/study/master/static/qr.png" align="left">
-
