@@ -7,7 +7,7 @@
 ![Github stars](https://img.shields.io/github/stars/869413421/wechatbot.svg)
 ![Forks](https://img.shields.io/github/forks/869413421/wechatbot.svg?style=flat-square)
 
-### 目前实现了以下功能
+# 目前实现了以下功能
  * 提问增加上下文，更接近官网效果 
  * 机器人群聊@回复
  * 机器人私聊回复
@@ -22,15 +22,22 @@
 > * 请注意收发敏感信息，本项目不做信息过滤。
 
 # 获取项目
+````
 git clone https://github.com/lzhpku/wechatbot.git
+````
 
 # 进入项目目录
+````
 cd wechatbot
+````
 
 # 复制配置文件
+````
 copy config.dev.json config.json
+````
 
 # 启动项目
+````
 go run main.go
 ````
 
